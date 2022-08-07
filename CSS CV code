@@ -1,0 +1,70 @@
+/*your CSS code here*/
+.heading{
+font-size: 35px;
+font-weight: bolder;
+text-transform: capitalize;
+}
+.prof{
+    font-size: 20px;
+    font-weight: light;
+}
+.contactinfo{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: lightblue; 
+}
+.subheading{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-transform: lowercase;
+    padding-left: 16px;
+}
+.intro{
+    backgound-color: red;
+    color: black;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+.body{
+    font-family: Arial, Calibri, sans-serif
+}
+.date{
+    color:green;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.social{
+    padding-left: 16px;
+}
+
+.skills ul li{
+    display: flex ;
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-bottom: 16px;
+}
+
+.skills ul li .skills_prog{
+    width: 60%;
+    height: 5px;
+    position: relative;
+}
+
+.skills ul li .skills_prog span{
+    background: greenyellow;
+    padding-right: 50px;
+    position: absolute;
+    height: 100%;
+}
+.
+.img{
+    float: right;
+}
+.icon{
+    float: left;
+    color: black;
+}
